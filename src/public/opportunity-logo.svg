@@ -1,0 +1,36 @@
+<svg width="300" height="80" viewBox="0 0 300 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B5CF6;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#7C3AED;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6D28D9;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E9D5FF;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Icon: Musical note with opportunity symbol -->
+  <circle cx="40" cy="40" r="32" fill="url(#logoGradient)" />
+  
+  <!-- Musical note -->
+  <path d="M35 50 L35 28 L42 26 L42 48" stroke="white" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <circle cx="35" cy="50" r="4" fill="white"/>
+  <circle cx="42" cy="48" r="4" fill="white"/>
+  <path d="M42 26 L50 28 L50 36 L42 34 Z" fill="white"/>
+  
+  <!-- Opportunity sparkle -->
+  <path d="M28 22 L30 20 L28 18 L26 20 Z" fill="white" opacity="0.8"/>
+  <path d="M54 52 L56 50 L54 48 L52 50 Z" fill="white" opacity="0.8"/>
+  
+  <!-- Text: OPPORTUNITY -->
+  <text x="85" y="48" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="url(#textGradient)" letter-spacing="-0.5">
+    OPPORTUNITY
+  </text>
+  
+  <!-- Tagline -->
+  <text x="85" y="62" font-family="Arial, sans-serif" font-size="10" fill="#A78BFA" letter-spacing="1">
+    VOTRE CARRIÈRE MUSICALE
+  </text>
+</svg>
